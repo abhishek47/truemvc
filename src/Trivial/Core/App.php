@@ -20,7 +20,7 @@ class App{
             return static::$containers[$name];
         }
 
-         throw new Exception('Cannot resolve the given class', 1);
+         throw new \Exception('Cannot resolve the given class', 1);
          
 	}
 
